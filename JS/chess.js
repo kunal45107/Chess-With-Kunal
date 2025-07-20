@@ -15,21 +15,21 @@ document.querySelectorAll('.white-square, .black-square').forEach(square =>
     }
 );
 
-let tappedPiece = null;
+let selectedPiece = null;
 
-document.querySelectorAll('[draggable]').forEach(piece => {
-    piece.addEventListener('touchstart', () => {
-        tappedPiece = piece;
+document.querySelectorAll('img.chess_pieces').forEach(piece => {
+    piece.addEventListener('click', () => {
+        selectedPiece = piece;
     });
 });
 
 document.querySelectorAll('.white-square, .black-square').forEach(square => {
-    square.addEventListener('touchstart', () => {
-        if (tappedPiece) {
+    square.addEventListener('click', () => {
+        if (selectedPiece) {
             const oldPiece = square.querySelector('img.chess_pieces');
             if (oldPiece) oldPiece.remove();
-            square.appendChild(tappedPiece);
-            tappedPiece = null;
+            square.appendChild(selectedPiece);
+            selectedPiece = null;
         }
     });
 });
