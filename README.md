@@ -8,6 +8,17 @@ No game rules or move validation yet — this is a **UI-only project**, and as I
 
 ![Chess UI Screenshot](Screenshot_project_chess.jpg)
 
+## 🎨 Custom Chess Piece Designs
+
+All the chess pieces used in this project were **designed by me using Figma**.  
+This allowed for full creative control over the look and consistency of the UI.
+
+Here's a preview of the designs:
+
+![Figma Chess Pieces](figma_chess_pieces.jpg)
+
+> *(You can find the SVG versions in the `chess_pieces/` folder.)*
+
 ## 📂 Project Structure
 
 - `index.html` — Main HTML file
