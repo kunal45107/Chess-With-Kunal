@@ -7,10 +7,9 @@ body {
     align-items: center;
     color: #e4e8ef;
     font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
-    background: url('../chess_pieces/chess-bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-
+    background: url('../chess_pieces/chess-bg.jpg')
 }
+
 
 
 .container-1 ,.container-2 ,.container-3 ,.container-4 ,.container-5,.container-6 ,.container-7 ,.container-8{
