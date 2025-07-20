@@ -1,4 +1,6 @@
-# ♟️ Chess With Kunal
+# ♟️ Chess With Kunal 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 A draggable Chessboard UI built using **HTML**, **CSS**, and **JavaScript**. Pieces can be moved freely and captured, just like on a physical board.
 
